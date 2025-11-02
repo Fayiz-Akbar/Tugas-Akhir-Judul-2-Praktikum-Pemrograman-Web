@@ -1,10 +1,10 @@
 
 :root {
-    --primary-color: #007bff; 
+    --primary-color: #183758; 
     --secondary-color: #6c757d;
     --dark-bg: #212529;
     --darker-bg: #000000; 
-    --light-bg: #f8f9fa; 
+    --light-bg: #d1dce6; 
     --text-color: #343a40; 
     --light-text: #adb5bd;
     --border-color: #e0e0e0; 
@@ -244,7 +244,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 4.5rem;
     line-height: 1.1;
     margin-bottom: 10px;
-    color: var(--dark-bg);
+   
+    background: linear-gradient(45deg, var(--primary-color) 30%, #409CFF 100%);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 .hero-content .job-title {
     font-size: 1.8rem;
